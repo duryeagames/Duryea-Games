@@ -1,0 +1,211 @@
+# Duryea-Games
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO OFICIAL DURYEA C6 - Duryea Games</title>
+    <style>
+        :root {
+            --bg-principal: #0f0f12;
+            --bg-tarjeta: #1a1a22;
+            --dorado: #d4af37;
+            --turquesa: #008080;
+            --texto-claro: #f0f0f5;
+            --texto-gris: #a0a0b0;
+            --borde: #2a2a36;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-principal);
+            color: var(--texto-claro);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background: linear-gradient(180deg, #16161f 0%, var(--bg-principal) 100%);
+            padding: 3rem 1rem 2rem;
+            text-align: center;
+            border-bottom: 3px solid var(--dorado);
+        }
+
+        .etiqueta {
+            background-color: rgba(212, 175, 55, 0.15);
+            color: var(--dorado);
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border: 1px solid var(--dorado);
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+            text-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+        }
+
+        .subtitulo {
+            color: var(--texto-gris);
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        main {
+            width: 90%;
+            max-width: 900px;
+            padding: 2.5rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .seccion-card {
+            background-color: var(--bg-tarjeta);
+            border: 1px solid var(--borde);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .seccion-card h2 {
+            color: var(--dorado);
+            margin-bottom: 1rem;
+            font-size: 1.6rem;
+            border-bottom: 1px solid var(--borde);
+            padding-bottom: 0.5rem;
+        }
+
+        .seccion-card p {
+            color: var(--texto-gris);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .destacado-auto {
+            color: var(--turquesa);
+            font-weight: bold;
+        }
+
+        .grilla-detalles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .caja-detalle {
+            background-color: rgba(255, 255, 255, 0.03);
+            border-left: 4px solid var(--dorado);
+            padding: 1.2rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .caja-detalle h3 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .caja-detalle p {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+
+        .boton-jugar {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 2rem auto 0;
+            padding: 1rem 2rem;
+            background-color: var(--dorado);
+            color: #0f0f12;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+        }
+
+        .boton-jugar:hover {
+            background-color: #f0c842;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.6);
+        }
+
+        footer {
+            width: 100%;
+            background-color: #08080a;
+            border-top: 1px solid var(--borde);
+            padding: 2rem 1rem;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        .copyright {
+            color: var(--texto-claro);
+            font-size: 0.95rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="etiqueta">Juego Arcade Oficial</div>
+        <h1>AUTO OFICIAL DURYEA C6</h1>
+        <p class="subtitulo">Una experiencia retro de esquiva de tráfico en la pista rápida conducida por el legendario Duryea C6.</p>
+    </header>
+
+    <main>
+        <section class="seccion-card">
+            <h2>Sobre el Juego</h2>
+            <p>En este videojuego pilotas el vehículo <span class="destacado-auto">Duryea C6</span> en color turquesa. Muévete por los carriles de la carretera, acelera y demuestra tu habilidad evitando chocar contra otros autos en la pista.</p>
+            
+            <div class="grilla-detalles">
+                <div class="caja-detalle">
+                    <h3>🕹️ Controles Simples</h3>
+                    <p>Usa las flechas de la pantalla o del teclado para mover el Duryea C6 hacia la izquierda o la derecha rápidamente.</p>
+                </div>
+                <div class="caja-detalle">
+                    <h3>❤️ Marcador de Puntos y Vidas</h3>
+                    <p>Mantente con vida en la carretera para aumentar tu puntaje máximo y romper récords en cada partida.</p>
+                </div>
+                <div class="caja-detalle">
+                    <h3>🏎️ Diseño Duryea C6</h3>
+                    <p>Diseñado con la insignia emblemática del triángulo dorado en la parte frontal de cada vehículo.</p>
+                </div>
+            </div>
+
+            <a href="juego.html" class="boton-jugar">¡Iniciar Juego!</a>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">Duryea Games Duryea C6 todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
